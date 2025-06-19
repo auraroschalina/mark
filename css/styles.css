@@ -385,8 +385,8 @@ input[type='checkbox'] {
 }
 
 .navbar .logo-image img {
-    width: 118px;
-	height: 36px;
+    width: 400px;
+	height: 70px;
 }
 
 .navbar .logo-text {
@@ -519,9 +519,9 @@ input[type='checkbox'] {
 /*     Header     */
 /******************/
 .header {
-	padding-top: 7rem;
+	padding-top: 4rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../Desain\ tanpa\ judul.png') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -1275,6 +1275,206 @@ a:hover.back-to-top {
 		margin-right: 2.875rem;
 		margin-left: 2.875rem;
 	}
-	/* end of extra pages */
+
+	#project {
+    padding: 80px 0;
 }
-/* end of min-width 1200px */
+
+.card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 240px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 25px 20px;
+    background: linear-gradient(to bottom right, #ffffff, #f7f7f7);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #4c4c4c;
+    margin-bottom: 12px;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 20px;
+    min-height: 60px;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #0f5ae6 0%, #7da6f1 100%);
+    border: none;
+    border-radius: 30px;
+	text-decoration: none;
+    padding: 8px 24px;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(3, 21, 59, 0.603);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #052157 0%,  100%);
+    transform: scale(1.05);
+}
+
+.h2-heading {
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: #5e5e5e;
+}
+
+.p-heading {
+    color: #7d7d7d;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .card-text {
+        min-height: auto;
+    }
+}
+
+/* Bagian umum */
+.tools-section {
+  background-color: #fefefe;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.section-subtitle {
+  color: #666;
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+/* Style ikon melingkar */
+.tool-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.tool-icon img {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.tool-icon:hover img {
+  transform: scale(1.1);
+}
+
+.tool-icon p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #444;
+}
+.tools-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  padding-left: 100px;
+}
+
+.contact-section {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  margin-left: 220px;
+  
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #7c4dff;
+  outline: none;
+}
+
+.btn-submit {
+  background-color: #7c4dff;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #5a35cc;
+}
+
+.social-icons {
+  font-size: 1.5rem;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #7c4dff;
+}
+
+
+}
