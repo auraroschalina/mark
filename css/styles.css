@@ -563,6 +563,7 @@ input[type='checkbox'] {
 
 .basic-1 .text-container {
 	margin-bottom: 3rem;
+	width: 900px;
 }
 
 .basic-1 .time {
@@ -1417,19 +1418,28 @@ a:hover.back-to-top {
 }
 
 .contact-section {
-  background-color: #f9f9f9;
+  background-color: #f7f9fb;
   padding: 60px 20px;
-  margin-left: 220px;
+  align-items: center;
+  
   
 }
 
 .contact-form {
-  max-width: 500px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
 .contact-form .form-group {
   margin-bottom: 20px;
+}
+
+.section-subtitle {
+  max-width: 800px;     /* Membatasi lebar agar tidak terlalu lebar */
+  margin: 0 auto;       /* Posisi tengah */
+  text-align: center;   /* Rata tengah */
+  line-height: 1.7;     /* Jarak antar baris lebih nyaman dibaca */
+  font-size: 1.1rem;    /* Ukuran font sedikit lebih besar */
 }
 
 .contact-form input,
